@@ -1,5 +1,5 @@
 ---
-	layout: post
+	layout: index
 	title: 在Xcode中使用Uncrustify格式化代码
 ---
 
