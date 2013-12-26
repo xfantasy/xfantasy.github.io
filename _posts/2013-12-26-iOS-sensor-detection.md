@@ -1,7 +1,6 @@
 ---
 layout: post
 title : iOS常见传感器检测代码
-tag: 代码
 ---
 
 <pre>
