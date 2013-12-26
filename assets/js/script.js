@@ -15,7 +15,7 @@ if ($(window).width() <= 1280) {
     tag2       = $('.技巧'),
     tag3       = $('.软件'),
     tag4       = $('.代码'),
-    tag5       = $('.人生'),
+    tag5       = $('.人生');
     //tag6       = $('.其他');
 
 var sidebar    = $('#sidebar'),
