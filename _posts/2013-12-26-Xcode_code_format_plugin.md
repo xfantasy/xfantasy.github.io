@@ -1,6 +1,6 @@
 ---
-	layout: index
-	title: 在Xcode中使用Uncrustify格式化代码
+layout: post
+title: 在Xcode中使用Uncrustify格式化代码
 ---
 
 *Notice: 本文仅针对Mac环境*
