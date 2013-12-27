@@ -1,0 +1,19 @@
+/* TEAM */
+                            
+Your title: 鹭飞.                        
+Site: x.fantasy@gmail.com.                         
+Location: Hangzhou, China.
+
+
+/* THANKS */
+
+HTML5 Muffin
+Name: name or url
+
+                            
+/* SITE */
+                          
+Last update: YYYY/MM/DD                    
+Standards: HTML5, CSS3,..                   
+Components: Modernizr, jQuery, etc.                            
+Software: Software used for the development
