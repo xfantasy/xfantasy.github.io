@@ -1,6 +1,8 @@
 ---
 layout: post
-title: iOS sensor detection
+title: iOS传感器检测
+category: 代码
+tags:iOS, ObjetiveC
 ---
 
 <pre>

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 在Xcode中使用Uncrustify格式化代码
+category: 技巧
+tags: 折腾,Xcode,Code format
 ---
 
 *Notice: 本文仅针对Mac环境*
