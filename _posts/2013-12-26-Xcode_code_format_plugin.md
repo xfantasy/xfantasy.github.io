@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_page
 title: 在Xcode中使用Uncrustify格式化代码
 ---
 

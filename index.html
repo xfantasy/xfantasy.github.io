@@ -1,16 +1,75 @@
 ---
 layout: default
-title: Homepage
+title: Mainpage
 ---
 <!-- Content
     ================================================== -->
-	<div class="container" role="main">
-		<div class="well" style="margin-top:1em; text-align: center;">
-			<img src="/img/muffin.png" alt="muffin logo">
-			<h2><i class="icon-ok-sign"></i> Congratulations you've successfully installed</h2>
-			<h3>HTML5 Muffin: Blueberry</h3>
-			<p>
-				A design focused front-end web development template using SASS and Jekyll.
-			</p>
-		</div>
-	</div>
+  <div class="top-strip"></div>
+  <div class="content">
+    <main class="container">
+    	<div class="row-fluid">
+    		<section class="content">
+    		  <h1>Ipsum List</h1>
+    		</section>
+    		<ul class="entries">
+    		{% for post in paginator.posts %}
+    		  <li>
+    		    <a href="{{ post.url }}">
+                      <span>{{ post.date | date: "%d %B %Y" }}</span>
+    		        <h3>{{ post.title }}</h3>
+                      <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
+    		    </a>
+    		  </li>
+    		{% endfor %}
+    		</ul>
+    	</div>
+      <hr>
+      <div id="post-pagination">
+        {% if paginator.previous_page %}
+        <p class="prev">
+          {% if paginator.previous_page == 1 %}
+          <a href="/">Previous</a>
+          {% else %}
+          <a href="/page{{paginator.previous_page}}"> Previous</a>
+          {% endif %}
+        </p>
+        {% else %}
+<!--         <p class="prev disabled">
+          <span>Previous</span>
+        </p> -->
+        {% endif %}
+
+        <ul class="pages">
+          <li class="page">
+            {% if paginator.page == 1 %}
+<!--             <span class="current-page">1</span> -->
+            {% else %}
+            <a href="/">1</a>
+            {% endif %}
+          </li>
+
+          {% for count in (2..paginator.total_pages) %}
+          <li class="page">
+            {% if count == paginator.page %}
+            <span class="current-page">{{count}}</span>
+            {% else %}
+            <a href="/page{{count}}">{{count}}</a>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+
+        {% if paginator.next_page %}
+        <p class="next">
+          <a href="/page{{paginator.next_page}}">Next</a>
+        </p>
+        {% else %}
+<!--         <p class="next disabled">
+          <span>Next</span>
+        </p> -->
+        {% endif %}
+      </div>
+
+    </main>
+  </div>
+
