@@ -1,4 +1,5 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll"
-gem "nokogiri"
+gem 'sass'
+gem 'jekyll'
+gem 'nokogiri'

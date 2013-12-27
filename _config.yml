@@ -1,11 +1,7 @@
-permalink: /:year/:month/:title/
-exclude:  server.sh, Gemfile, Gemfile.lock README.md
-name: My Name
-description: Blog Description
-url: http://example.com
-email: me@gmail.com (My Name)
-title: Blog Title
-subtitle: Blog Subtitle
-only_first_p:
-    show_read_more_link: false
-    read_more_link_text: 'Read more'
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+auto: true # automatically update your jekyll
+server: false # runs a local server
+paginate: 10 # pagination basted on number of posts
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
+
