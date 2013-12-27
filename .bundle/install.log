@@ -1,0 +1,24 @@
+# Logfile created on 2013-12-27 11:14:42 +0800 by logger.rb/36483
+I, [2013-12-27T11:14:42.663825 #8147]  INFO -- : 0:  blankslate (2.1.2.4) from /Library/Ruby/Gems/2.0.0/specifications/blankslate-2.1.2.4.gemspec
+I, [2013-12-27T11:14:46.791432 #8147]  INFO -- : 0:  fast-stemmer (1.0.2) from /Library/Ruby/Gems/2.0.0/specifications/fast-stemmer-1.0.2.gemspec
+I, [2013-12-27T11:14:49.230422 #8147]  INFO -- : 0:  classifier (1.3.3) from /Library/Ruby/Gems/2.0.0/specifications/classifier-1.3.3.gemspec
+I, [2013-12-27T11:14:53.257488 #8147]  INFO -- : 0:  colorator (0.1) from /Library/Ruby/Gems/2.0.0/specifications/colorator-0.1.gemspec
+I, [2013-12-27T11:14:55.773436 #8147]  INFO -- : 0:  highline (1.6.20) from /Library/Ruby/Gems/2.0.0/specifications/highline-1.6.20.gemspec
+I, [2013-12-27T11:14:58.287460 #8147]  INFO -- : 0:  commander (4.1.5) from /Library/Ruby/Gems/2.0.0/specifications/commander-4.1.5.gemspec
+I, [2013-12-27T11:15:03.771644 #8147]  INFO -- : 0:  ffi (1.9.3) from /Library/Ruby/Gems/2.0.0/specifications/ffi-1.9.3.gemspec
+I, [2013-12-27T11:15:05.470384 #8147]  INFO -- : 0:  liquid (2.5.4) from /Library/Ruby/Gems/2.0.0/specifications/liquid-2.5.4.gemspec
+I, [2013-12-27T11:15:13.421985 #8147]  INFO -- : 0:  rb-fsevent (0.9.3) from /Library/Ruby/Gems/2.0.0/specifications/rb-fsevent-0.9.3.gemspec
+I, [2013-12-27T11:15:15.496024 #8147]  INFO -- : 0:  rb-inotify (0.9.3) from /Library/Ruby/Gems/2.0.0/specifications/rb-inotify-0.9.3.gemspec
+I, [2013-12-27T11:15:20.086044 #8147]  INFO -- : 0:  rb-kqueue (0.2.0) from /Library/Ruby/Gems/2.0.0/specifications/rb-kqueue-0.2.0.gemspec
+I, [2013-12-27T11:15:21.531947 #8147]  INFO -- : 0:  listen (1.3.1) from /Library/Ruby/Gems/2.0.0/specifications/listen-1.3.1.gemspec
+I, [2013-12-27T11:15:25.163564 #8147]  INFO -- : 0:  maruku (0.7.0) from /Library/Ruby/Gems/2.0.0/specifications/maruku-0.7.0.gemspec
+I, [2013-12-27T11:15:30.325653 #8147]  INFO -- : 0:  posix-spawn (0.3.8) from /Library/Ruby/Gems/2.0.0/specifications/posix-spawn-0.3.8.gemspec
+I, [2013-12-27T11:15:34.255663 #8147]  INFO -- : 0:  yajl-ruby (1.1.0) from /Library/Ruby/Gems/2.0.0/specifications/yajl-ruby-1.1.0.gemspec
+I, [2013-12-27T11:15:36.907544 #8147]  INFO -- : 0:  pygments.rb (0.5.4) from /Library/Ruby/Gems/2.0.0/specifications/pygments.rb-0.5.4.gemspec
+I, [2013-12-27T11:15:42.724130 #8147]  INFO -- : 0:  redcarpet (2.3.0) from /Library/Ruby/Gems/2.0.0/specifications/redcarpet-2.3.0.gemspec
+I, [2013-12-27T11:15:44.143380 #8147]  INFO -- : 0:  safe_yaml (0.9.7) from /Library/Ruby/Gems/2.0.0/specifications/safe_yaml-0.9.7.gemspec
+I, [2013-12-27T11:15:45.659539 #8147]  INFO -- : 0:  parslet (1.5.0) from /Library/Ruby/Gems/2.0.0/specifications/parslet-1.5.0.gemspec
+I, [2013-12-27T11:15:47.117204 #8147]  INFO -- : 0:  toml (0.1.0) from /Library/Ruby/Gems/2.0.0/specifications/toml-0.1.0.gemspec
+I, [2013-12-27T11:15:51.153355 #8147]  INFO -- : 0:  jekyll (1.4.2) from /Library/Ruby/Gems/2.0.0/specifications/jekyll-1.4.2.gemspec
+I, [2013-12-27T11:15:56.255792 #8147]  INFO -- : 0:  sass (3.2.13) from /Library/Ruby/Gems/2.0.0/specifications/sass-3.2.13.gemspec
+I, [2013-12-27T11:15:56.278431 #8147]  INFO -- : 0:  bundler (1.5.0) from /Library/Ruby/Gems/2.0.0/specifications/bundler-1.5.0.gemspec
