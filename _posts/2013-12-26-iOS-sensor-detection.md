@@ -1,6 +1,6 @@
 ---
-layout: post_page
-title : iOS常见传感器检测代码
+layout: post
+title: iOS sensor detection
 ---
 
 <pre>

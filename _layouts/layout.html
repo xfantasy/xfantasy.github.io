@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+
+		<!--[if lt IE 9]>
+			<script src="/js/html5shiv.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="{{ site.url }}/css/reset.css" />
+		<link rel="stylesheet" href="{{ site.url }}/css/style.css" />
+
+		<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed/" />
+
+		<link rel="canonical" href="{{ site.url }}{% if page.title %}{{ page.url }}{% endif %}" />
+		{% if page.previous.url %}
+		<link rel="prev" title="{{ page.previous.title }}" href="{{ site.url }}{{ page.previous.url }}" />
+		{% endif %}
+		{% if page.next.url %}
+		<link rel="next" title="{{ page.next.title }}" href="{{ site.url }}{{ page.next.url }}" />
+		{% endif %}
+	</head>
+	<body>
+		<header>
+			<div class="mainhead"><a href="{{ site.url }}">{{ site.title }}</a></div>
+			<div class="subhead">{{ site.subtitle }}</div>
+		</header>
+		<div id="container">
+			<div id="content">
+				<div>
+					{{ content }}
+				</div>
+			</div>
+			<div id="sidebar">
+				<div>
+					<section id="aboutme">
+						<img src="http://www.gravatar.com/avatar/HASH" alt="My face" />
+						<h1>About me</h1>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae odio est, sed pretium tortor. Proin sed turpis elit. Pellentesque et iaculis sapien. Nulla in lorem vel neque lobortis ornare. Phasellus vitae augue eu leo ullamcorper tincidunt ut at metus. Sed molestie porttitor lacus, a tincidunt leo convallis ac. Aenean nulla turpis, laoreet ac feugiat quis, condimentum non nulla. Donec egestas lobortis facilisis. Vivamus aliquam mattis nisi id commodo. 
+					</section>
+					<section id="contact">
+						<h1>Contact me</h1>
+						<ul>
+							<li><a href="https://twitter.com/">
+								Twitter
+							</a></li>
+							<li><a href="mailto:">
+								Email
+							</a></li>
+						</ul>
+					</section>
+				</div>
+			</div>
+			<br class="clear" />
+		</div>
+		<footer>
+			&copy; {{ site.time | date: "%Y" }} {{ site.name }}
+		</footer>
+	</body>
+</html>

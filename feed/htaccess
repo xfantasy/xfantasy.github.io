@@ -1,0 +1,6 @@
+---
+layout: none
+permalink: .htaccess
+---
+DirectoryIndex index.xml
+AddCharset UTF-8 .xml
