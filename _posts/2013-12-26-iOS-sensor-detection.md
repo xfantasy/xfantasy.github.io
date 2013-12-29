@@ -2,7 +2,7 @@
 layout: post
 title: iOS传感器检测
 category: 代码
-tags:iOS, ObjetiveC
+tags: iOS,ObjetiveC
 ---
 
 <pre>
