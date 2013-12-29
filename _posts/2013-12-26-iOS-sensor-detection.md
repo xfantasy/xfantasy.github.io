@@ -5,6 +5,10 @@ category: 代码
 tags: iOS,ObjetiveC
 ---
 
+iPhone / iPad / iPod touch三种iOS设备的硬件配置各有不同，而且各代同类设备的配置也不尽相同，我们也难保将来苹果不推出一个iWatch之类的设备，所以基于设备类型做传感器断言的代码肯定都是不靠谱的，还是用特性检测代码靠谱，而且维护性更好。
+
+下面列出一些iOS设备的传感器检测代码，自我收藏之。
+
 <pre>
 // 检测是否存在摄像头
 - (BOOL)isCameraAvailable
